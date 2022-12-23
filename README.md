@@ -2,25 +2,23 @@
 
 ## Band_api
 
-Basic API experimentation
+A rails backend only app, implementing Api versioning, active_model_serializer and model association to create a simple music band group with their member names.
 
 
-Things you may want to cover:
+## Things you may want to cover to use this code:
 
-* Ruby version
+* [Ruby version 3.1.2](https://www.ruby-lang.org/en/)
 
-* System dependencies
+* [Active_model_serializer](https://github.com/rails-api/active_model_serializers)
 
-* Configuration
+* [Rails Api versioning](https://infinum.com/handbook/rails/api/versioning#how-to-version) 
 
-* Database creation
+* [Rails Active Model Relationship](https://guides.rubyonrails.org/association_basics.html)
 
-* Database initialization
+## Disclaimer
 
-* How to run the test suite
+This app does not implement authorization and authentication.
+If you need it, you should consider writing it yourself.
+Check out devise gem
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks you
